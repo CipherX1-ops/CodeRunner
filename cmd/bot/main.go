@@ -27,7 +27,7 @@ type /langs for list of supported languages.
 
 var INLINE_USAGE_MSG = `
 <b>Inline usage:</b>
-<pre>@iruncode_bot [language]
+<pre>@SipakGfRunnerBot [language]
 [your code]
 ...
 /stdin [input text] (optional)
@@ -229,7 +229,7 @@ func forkButton(request piston.RunRequest) *tgbot.InlineKeyboardMarkup {
 		InlineKeyboard: [][]tgbot.InlineKeyboardButton{
 			{
 				tgbot.InlineKeyboardButton{
-					Text:                         "Fork",
+					Text:                         "🍽",
 					SwitchInlineQueryCurrentChat: &forkText,
 				},
 			},
