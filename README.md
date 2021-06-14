@@ -2,8 +2,6 @@
 
 A Telegram bot that will run code for you. Made using [piston][1].
 
-Available as [@iruncode_bot](https://t.me/iruncode_bot) on telegram.
-
 ## Examples
 
 ### Basic example
